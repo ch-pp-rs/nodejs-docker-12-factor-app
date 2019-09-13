@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-docker-12-factor-app",
+  "version": "1.0.0",
+  "description": "A brief example of how to run nodeJS app in docker complying to the 12 Factor App guidelines.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ch-pp-rs/nodejs-docker-12-factor-app.git"
+  },
+  "keywords": [
+    "docker",
+    "nodeJS",
+    "12",
+    "Factor",
+    "App"
+  ],
+  "author": "Ben Chaplin (https://github.com/ch-pp-rs/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ch-pp-rs/nodejs-docker-12-factor-app/issues"
+  },
+  "homepage": "https://github.com/ch-pp-rs/nodejs-docker-12-factor-app#readme"
+}
