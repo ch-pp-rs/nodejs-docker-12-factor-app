@@ -4,7 +4,7 @@
   "description": "A brief example of how to run nodeJS app in docker complying to the 12 Factor App guidelines.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "pm2-runtime index.js"
   },
   "repository": {
     "type": "git",
@@ -13,14 +13,17 @@
   "keywords": [
     "docker",
     "nodeJS",
-    "12",
-    "Factor",
-    "App"
+    "12 Factor App",
+    "PM2"
   ],
   "author": "Ben Chaplin (https://github.com/ch-pp-rs/)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ch-pp-rs/nodejs-docker-12-factor-app/issues"
   },
-  "homepage": "https://github.com/ch-pp-rs/nodejs-docker-12-factor-app#readme"
+  "homepage": "https://github.com/ch-pp-rs/nodejs-docker-12-factor-app#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pm2": "^3.5.1"
+  }
 }
