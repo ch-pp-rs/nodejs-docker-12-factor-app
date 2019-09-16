@@ -3,5 +3,5 @@ A brief example of how to run nodeJS app in docker complying to the 12 Factor Ap
 
 ## Run with Docker
 * `docker build -t nodejs-12-factor .`
-* `docker run -e MESSAGE="12 Factor Rocks" --publish 8080:80 nodejs-12-factor:latest`
+* `docker run -e MESSAGE="12 Factor Rocks" --publish 8080:3000 nodejs-12-factor:latest`
 * navigate to `http://localhost:8080/`
